@@ -21,7 +21,7 @@ steps:
     configuration: '$(buildConfiguration)'
 
 
-- task: PublishSymbols@2
+- task: PublishSymbols@1
   inputs:
     ConnectedServiceName: 'MCAPS-Support-REQ-99605-2024-shmohanty(fd9365e2-b355-4a33-9b57-b8fd8c244341)'
     SearchPattern: '**/bin/**/*.pdb'
